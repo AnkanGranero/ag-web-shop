@@ -24,7 +24,7 @@ export default {
   mixins: [imagePath],
   methods: {
     addToCart(id) {
-      this.$store.dispatch(addToCart, id);
+      this.$store.dispatch("addToCart", id);
     }
   }
 };
